@@ -1,100 +1,107 @@
-/** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  title: "coastside.lt wiki",
+  tagline: "Coastside projekto sistemų aprašymai",
+  url: "https://wiki.coastside.lt",
+  baseUrl: "/",
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
+  favicon: "img/favicon.ico",
+  organizationName: "Coastsideroleplay-fivem", // Usually your GitHub org/user name.
+  projectName: "wiki", // Usually your repo name.
+  customFields: {
+    ogImage: "img/logo.png",
+  },
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: "Coastside Wiki",
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: "Wiki logo",
+        src: "img/logo.svg",
       },
       items: [
         {
-          type: 'doc',
-          docId: 'intro',
-          position: 'left',
-          label: 'Tutorial',
+          to: "docs",
+          activeBasePath: "docs",
+          label: "Dokumentacija",
+          position: "left",
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
-          position: 'right',
+          to: "blog",
+          activeBasePath: "blog",
+          label: "Gidai",
+          position: "left",
+        },
+        {
+          href: "https://coastside.lt/",
+          label: "Coastside projekto puslapis",
+          position: "right",
         },
       ],
     },
     footer: {
-      style: 'dark',
+      style: "dark",
       links: [
         {
-          title: 'Docs',
+          title: "Wiki",
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: "Pildymo instrukcija",
+              to: "docs/",
+            },
+            {
+              label: "GitHub",
+              href: "https://github.com/coastside-lt/wiki",
             },
           ],
         },
         {
-          title: 'Community',
+          title: "Informacija apie projektą",
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: "Prisijungimas į serverį",
+              href: "samp://samp.realstate.lt:7777/",
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: "Oficialus discord serveris",
+              href: "https://discord.coastside.lt",
             },
             {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: "Oficialus puslapis",
+              href: "https://coastside.lt/",
             },
           ],
         },
         {
-          title: 'More',
+          title: "Kita",
           items: [
             {
-              label: 'Blog',
-              to: '/blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              label: "Oficiali tema supergames.lt portale",
+              href:
+                "https://www.supergames.lt/topic/331621-coastsidelt-pakrant%C4%97s-gyvenimas/",
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Visos teisės saugomos © ${new Date().getFullYear()} COASTSIDE.lt`,
     },
   },
   presets: [
     [
-      '@docusaurus/preset-classic',
+      "@docusaurus/preset-classic",
       {
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+          sidebarPath: require.resolve("./sidebars.js"),
+          editUrl: "https://github.com/coastside-lt/wiki",
         },
-        blog: {
+        blog: {	
           showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+          editUrl: "https://github.com/coastside-lt/wiki",
+          feedOptions: {
+            language: 'lt'
+          }
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve("./src/css/custom.css"),
         },
       },
     ],
