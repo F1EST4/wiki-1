@@ -83,7 +83,7 @@ function Home() {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="RealState projekto Wiki dokumentacijos saugykla"
+      description="coastside.lt roleplay serverio wiki dokumentacijos"
     >
       <div className={styles.indexRoot}>
         <div className={styles.videoBackground}>
