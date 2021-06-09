@@ -13,7 +13,7 @@ module.exports = {
   },
   themeConfig: {
     navbar: {
-      title: "Coastside Wiki",
+      title: "COASTSIDE.lt WIKI",
       logo: {
         alt: "Wiki logo",
         src: "img/logo.svg",
@@ -59,7 +59,7 @@ module.exports = {
           items: [
             {
               label: "Prisijungimas į serverį",
-              href: "samp://samp.realstate.lt:7777/",
+              href: "fivem.coastside.lt",
             },
             {
               label: "Oficialus discord serveris",
