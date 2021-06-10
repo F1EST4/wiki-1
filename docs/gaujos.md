@@ -1,7 +1,6 @@
 ---
 id: gaujos
 title: Gaujos
-slug: /
 ---
 
-## Pildoma...
+## Pildoma ...

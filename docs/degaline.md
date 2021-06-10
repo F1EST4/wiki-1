@@ -1,7 +1,6 @@
 ---
 id: degaline
 title: Degalinė
-slug: /
 ---
 
-## Pildoma...
+## Pildoma ...

@@ -1,7 +1,6 @@
 ---
 id: policija
 title: Policija
-slug: /
 ---
 
-## Pildoma...
+## Pildoma ...
