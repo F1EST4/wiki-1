@@ -91,11 +91,11 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          editUrl: "https://github.com/coastside-lt/wiki",
+          editUrl: "https://github.com/coastside-lt/wiki/edit/master/docs/",
         },
         blog: {	
           showReadingTime: true,
-          editUrl: "https://github.com/coastside-lt/wiki",
+          editUrl: "https://github.com/coastside-lt/wiki/edit/master/blog/",
           feedOptions: {
             language: 'lt'
           }
