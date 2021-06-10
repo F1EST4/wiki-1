@@ -59,7 +59,7 @@ module.exports = {
           items: [
             {
               label: "Prisijungimas į serverį",
-              href: "fivem.coastside.lt",
+              href: "https://fivem.coastside.lt/",
             },
             {
               label: "Oficialus discord serveris",
