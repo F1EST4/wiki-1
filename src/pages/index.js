@@ -13,7 +13,7 @@ const features = [
     linksTo: 'docs/',
     description: (
       <>
-        Išsamūs serverio sistemų aprašymai su vaizdais iš serverio.
+        Visa informacija apie projekto taisykles, informaciją apie serverį ir visas jo sistemas.
       </>
     ),
   },
@@ -23,7 +23,7 @@ const features = [
     linksTo: 'blog/',
     description: (
       <>
-        Oficialūs ir bendruomenės narių parašyti gidai, skirti pradedantiesiems žaidėjams ir ne tik.
+        Visi coastside projekto komandos ar net serverio bendruomenės parašyti gidai.
       </>
     ),
   },
@@ -33,7 +33,7 @@ const features = [
     linksTo: 'docs/',
     description: (
       <>
-        Visi projekto pirkiniai ir jų įkainiai. Sužinok ką žaidėjas gali įsigyti serveryje ir kas bus suteikiama.
+        Visos projekto teikiamos paslaugos, čia galėsite rasti viską kas pagerins jūsų žaidimo pojūčius!
       </>
     ),
   },

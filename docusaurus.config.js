@@ -32,6 +32,12 @@ module.exports = {
           position: "left",
         },
         {
+          to: "paslaugos",
+          activeBasePath: "paslaugos",
+          label: "Paslaugos",
+          position: "left",
+        },
+        {
           href: "https://coastside.lt/",
           label: "Coastside projekto puslapis",
           position: "right",
@@ -42,15 +48,15 @@ module.exports = {
       style: "dark",
       links: [
         {
-          title: "Wiki",
+          title: "COASTSIDE WIKI",
           items: [
             {
-              label: "Pildymo instrukcija",
-              to: "docs/",
+              label: "GitHub",
+              to: "https://github.com/coastside-lt/wiki",
             },
             {
-              label: "GitHub",
-              href: "https://github.com/coastside-lt/wiki",
+              label: "WIKI pildymo instrukcija",
+              href: "/docs/wiki.md",
             },
           ],
         },
@@ -76,6 +82,11 @@ module.exports = {
           items: [
             {
               label: "Oficiali tema supergames.lt portale",
+              href:
+                "https://www.supergames.lt/topic/331621-coastsidelt-pakrant%C4%97s-gyvenimas/",
+            },
+            {
+              label: "Oficialus projekto trumpametražis filmukas",
               href:
                 "https://www.supergames.lt/topic/331621-coastsidelt-pakrant%C4%97s-gyvenimas/",
             },
